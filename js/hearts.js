@@ -38,7 +38,7 @@ var love = setInterval(function() {
         $('.heart-text').each(detachElement);
         $('.heart').each(detachElement);
     }
-}, 500);
+}, 100);
 
 
 
