@@ -23,7 +23,7 @@ var love = setInterval(function() {
 
         $('.bg_heart').append("<div class='heart' style='width:" + (r_size - 10) + "px;height:" + (r_size - 10) + "px;left:" + (r_left + r_num) + "%;background:rgba(255," + (r_bg - 25) + "," + (r_bg + 25) + ",1);-webkit-animation:love " + (r_time + 5) + "s ease;-moz-animation:love " + (r_time + 5) + "s ease;-ms-animation:love " + (r_time + 5) + "s ease;animation:love " + (r_time + 5) + "s ease'></div>");
 
-        var hbdTexts = ["Happyyy b'dayyy Simpi!", "Happy b'day Shivani!"]
+        var hbdTexts = ["Happyyy b'dayyy Simpi!", "Happy b'day Shivani!", "Happy b'day Vaani!"]
         var hbdText = hbdTexts[Math.floor(Math.random()*(hbdTexts.length))]
 
         $('.bg_heart').append("<div class='heart-text' style='width: 68px;height: 68px;left:" + r_left1 + "%;-webkit-animation:love " + r_time1 + "s ease;-moz-animation:love " + r_time1 + "s ease;-ms-animation:love " + r_time1 + "s ease;animation:love " + r_time1 + "s ease; text-align: center; color: #ffffff'><div class='hbd-text'><p style=\"z-index: 1000; position:absolute;\">" + hbdText +"</p></div></div>");
